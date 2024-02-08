@@ -1,5 +1,5 @@
 {
-    "version": "202402062247",
+    "version": "202402080830",
     "indexer": [
         {
             "id": "2xfree",
@@ -654,20 +654,6 @@
                         "selector": "td:nth-child(2) > table.torrentname > tr > td:nth-child(2) > span[title=\"\"]"
                     }
                 }
-            },
-            "price": {
-                "FREE": [
-                    "//h1[@id='top']/b/font[@class='free']"
-                ],
-                "2XFREE": [
-                    "//h1[@id='top']/b/font[@class='twoupfree']"
-                ],
-                "HR": [
-                    "//h1[@id='top']/img[@class='hitandrun']"
-                ],
-                "PEER_COUNT": [
-                    "//div[@id='peercount']/b[1]"
-                ]
             },
             "system_type": "nexus_php"
         },
@@ -18087,6 +18073,20 @@
                 "//h1[@id='top']/b/font[@class='twoupfree']"
             ],
             "HR": [],
+            "PEER_COUNT": [
+                "//div[@id='peercount']/b[1]"
+            ]
+        },
+        "www.agsvpt.com": {
+            "FREE": [
+                "//h1[@id='top']/b/font[@class='free']"
+            ],
+            "2XFREE": [
+                "//h1[@id='top']/b/font[@class='twoupfree']"
+            ],
+            "HR": [
+                "//h1[@id='top']/img[@class='hitandrun']"
+            ],
             "PEER_COUNT": [
                 "//div[@id='peercount']/b[1]"
             ]

@@ -1,5 +1,5 @@
 {
-    "version": "202402080830",
+    "version": "202402182310",
     "indexer": [
         {
             "id": "2xfree",
@@ -18524,10 +18524,10 @@
         },
         "hhanclub.top": {
             "FREE": [
-                "//span[@class='promotion-tag-free']"
+                "//span[@class='promotion-tag promotion-tag-free']"
             ],
             "2XFREE": [
-                "//span[@class='promotion-tag-2xfree']"
+                "//span[@class='promotion-tag promotion-tag-2xfree']"
             ],
             "HR": [
                 "//span[contains(text(), 'H&R')]"

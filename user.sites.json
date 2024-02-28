@@ -1,5 +1,5 @@
 {
-    "version": "202402282136",
+    "version": "202402282205",
     "indexer": [
         {
             "id": "2xfree",
@@ -524,6 +524,11 @@
                         "id": 403,
                         "cat": "TV",
                         "desc": "TV Shows/\u7efc\u827a"
+                    },
+                    {
+                        "id": 419,
+                        "cat": "TV",
+                        "desc": "Short Play/\u77ed\u5267"
                     }
                 ]
             },
@@ -18706,10 +18711,10 @@
         },
         "hhanclub.top": {
             "FREE": [
-                "//span[@class='promotion-tag promotion-tag-free']"
+                "//span[contains(@class, 'promotion-tag-free')]"
             ],
             "2XFREE": [
-                "//span[@class='promotion-tag promotion-tag-2xfree']"
+                "//span[contains(@class, 'promotion-tag-2xfree')]"
             ],
             "HR": [
                 "//span[contains(text(), 'H&R')]"
